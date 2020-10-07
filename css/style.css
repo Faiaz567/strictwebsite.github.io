@@ -1,379 +1,347 @@
 *{
-	padding: 0px;
-	margin: 0px;
+padding: 0px;
+margin: 0px;
 }
 body{
-	font-family: "Lato";
-	font-size: 14px;
-	line-height: 24px;
-	
+font-family: "Lato";
+font-size: 14px;
+line-height: 24px;
+
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: sans-serif;
+font-family: sans-serif;
 }
 a :hover{
-	text-decoration: none;
+text-decoration: none;
 }
-
-
 /*************header-section CSS Start**************/
-
-
 }
 .header-section{
-	width: 100%;
-	float: left;
-	background-color: #80c;
+width: 100%;
+float: left;
+background-color: #80c;
 }
 .navbar-brand{
-	margin-left: 30px;
-	
+margin-left: 30px;
+
 }
 .navbar-nav{
-	margin-right: 30px;
-	font-size: 15px;
-	font-family: "Lato";
+margin-right: 30px;
+font-size: 15px;
+font-family: "Lato";
 }
 .nav-item .nav-link span{
-	color:  #2986C5;	
+color:  #2986C5;
 }
-
-
-
-
-
-
 /********* header-section CSS end**************/
-
 /*************banner-section CSS start********/
 .banner-section{
-	width: 100%;
-	height: 100vh;
-	float: left;
-	background: url(../images/Image.png) center top no-repeat;
-	background-size: cover;
-	text-align: center;
-	padding: 80px 0px;
-
-
+width: 100%;
+padding: 100px 0px;
+float: left;
+background: url(../images/Image.png) center top no-repeat;
+background-size: cover;
+text-align: center;
 }
-
-.banner-inner{
-	width: 100%;
-	float: left;
-	padding: 200px 0px;
-	position: relative;
+.banner-inner {
+width: 100%;
+float: left;
+padding: 80px 0px 150px;
+position: relative;
 }
 .banner-inner h1{
-	font-size: 90px;
-    line-height: 100px;
-    margin-bottom: 15px;
-    font-weight: 400;
-    color: #fff;
-    font-family: 'Lato';
+font-size: 90px;
+line-height: 100px;
+margin-bottom: 15px;
+font-weight: 400;
+color: #fff;
+font-family: 'Lato';
 }
 .banner-inner .divider{
-	width: 45%;
-	height: 4px;
-	background:#2986c5;
-	margin: 0px auto 20px;
-
+width: 45%;
+height: 4px;
+background:#2986c5;
+margin: 0px auto 20px;
 }
 .banner-inner p{
-	font-size: 16px;
-	line-height: 26px;
-	font-weight: normal;
-	color: #fff;
-	margin-bottom: 40px;
-	font-family: 'Lato';
-	
+font-size: 16px;
+line-height: 26px;
+font-weight: normal;
+color: #fff;
+margin-bottom: 40px;
+font-family: 'Lato';
+
 }
 .banner-inner .btn{
-	border: 1px solid #2986c5;
-	background: transparent;
-	padding: 16px 35px;
-	border-radius: 5px;
-	font-size: 16px;
+border: 1px solid #2986c5;
+background: transparent;
+padding: 16px 35px;
+border-radius: 5px;
+font-size: 16px;
 }
 a{
-	color: #fff;
-	text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
-
 .banner-inner .btn:hover{
-	transition: 1s;
-	border: 1px solid #2986c5;
-    background: #2986c5;
-    transition: 1s;
-
+transition: 1s;
+border: 1px solid #2986c5;
+background: #2986c5;
+transition: 1s;
 }
 .arrow{
-	width:100%;
-	float: left;
-	padding-top: 20px; 
-	position: relative;
+width:100%;
+float: left;
+padding-top: 20px;
+position: relative;
 }
 .arrow img{
-	position: absolute;
-	left: 49%;
-	bottom: -178px;
+position: absolute;
+left: 49%;
+bottom: -178px;
 }
 /*************banner-section CSS End********/
-
 /*************typo-section CSS start********/
 .typo-section{
-	width: 100%;
-	float: left;
-	background: #f6f9f9;
-	text-align: center;
-	padding: 70px 0px;
+width: 100%;
+float: left;
+background: #f6f9f9;
+text-align: center;
+padding: 70px 0px;
 }
 .typo-inner h1{
-	font-family: 'Lato';
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 2;
-    color:#343f55;
-   
+font-family: 'Lato';
+font-size: 28px;
+font-weight: 300;
+line-height: 2;
+color:#343f55;
+
 }
 .typo-inner p{
-	font-size: 14px;
-	line-height: 24px;
-	color: #d4d5d5;
-	font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #d4d5d5;
+font-weight: 400;
+}
+/*************typo-section CSS end********/
+/*************featured-section CSS start********/
+.featured-section{
+width: 100%;
+float:left;
+padding: 70px 0px;
+text-align: center;
+}
+.featured-section img{
+margin-bottom: 10px;
+}
+.featured-section h4{
+font-size: 14px;
+line-height: 26px;
+font-family: "Lato";
+color: #7b818f;
+font-weight: 400px;
+margin-bottom: 10px;
+}
+.featured-section p{
+font-size: 12px;
+line-height: 20px;
+font-family: "Lato";
+color: #d5d5d5;
 
 }
-
-  /*************typo-section CSS end********/
-
-  /*************featured-section CSS start********/
-  .featured-section{
-  	width: 100%;
-  	float:left;
-  	padding: 70px 0px;
-  	text-align: center;
-  }
-  .featured-section img{
-  	margin-bottom: 10px;
-
-  }
-
-  .featured-section h4{
-  	font-size: 14px;
-  	line-height: 26px;
-  	font-family: "Lato";
-  	color: #7b818f;
-  	font-weight: 400px;
-  	margin-bottom: 10px;
-  }
-
-  .featured-section p{
-  	font-size: 12px;
-  	line-height: 20px;
-  	font-family: "Lato";
-  	color: #d5d5d5;
-
-  
-  }
-
-
-
-
- /*************featured-section CSS End********/
-
- /*************portfolio-section CSS start********************/
-
-
+/*************featured-section CSS End********/
+/*************portfolio-section CSS start********************/
 .portfolio-section{
-	width: 100%;
-	float: left;
-	padding: 80px 0px;
-	background: #f6f9f9;
-	
-	
+width: 100%;
+float: left;
+padding: 80px 0px;
+background: #f6f9f9;
+
+
 }
 .text{
-	font-family: "Lato";
-	font-size: 14px;
-	font-weight: 300;
-	color: #c5c6c6;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 40px;
-
+font-family: "Lato";
+font-size: 14px;
+font-weight: 300;
+color: #c5c6c6;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 40px;
 }
-
 .portfolio-section img{
-	
-	
-	
+	width: 100%;
+
+
+
 }
 .portfolio-inner{
-	width: 100%;
-	margin-left: 10px;
-	margin-top: 15px;
-	position: relative;
+width: 100%;
+margin-left: 10px;
+margin-top: 15px;
+position: relative;
 }
 .portfolio-inner .port-inner {
-    width: ;
-    height: ;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: rgb(21,164,250, .6 );
-    text-align: center;
-    display:none ;
-    transition: 1s;
-    padding: 130px 180px;
-
+width: ;
+height: ;
+position: absolute;
+left: 0;
+top: 0;
+background: rgb(21,164,250, .6 );
+text-align: center;
+display:none ;
+transition: 1s;
+padding: 127px 170px;
+}
+.portfolio-inner .port-inner img{
+	width: 100%;
 }
 .port-inner ul li{
-	list-style: none;
-	display: inline-block;
+list-style: none;
+display: inline-block;
 }
 .portfolio-inner:hover .port-inner{
-	width: 100%;
-	display: block;
-	transition: 1s;
+width: 100%;
+display: block;
+transition: 1s;
 }
 .port-inner ul{
-	position: absolute;
-	top: 40%;
-	left:35%;
+position: absolute;
+top: 40%;
+left:35%;
 }
 .port-inner ul li{
-	list-style: none;
-	display: inline-block;
+list-style: none;
+display: inline-block;
 }
 .port-inner ul li a{
-	margin:0px 5px; 
+margin:0px 5px;
 }
 .port-inner ul li a i{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	border-radius: 5px;
-	border: 1px solid #fff;
-	color: #fff;
-	font-size: 22px;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 5px;
+border: 1px solid #fff;
+color: #fff;
+font-size: 22px;
 }
 /*************portfolio-section CSS End********************/
-
 /*************contact-area-section CSS start********************/
 .contact-area{
-	width: 100%;
-	float: left;
-	padding: 80px 0px;
-	background: url(../images/BG.png) center top no-repeat;
-	background-size: cover;
+width: 100%;
+float: left;
+padding: 80px 0px;
+background: url(../images/BG.png) center top no-repeat;
+background-size: cover;
 }
-
 .contact-area h1 {
-    font-size: 45px;
-    font-family: Lato;
-    line-height: 55px;
-    font-weight: 300;
-    margin-bottom: 15px;
-    text-align: center;
-    color: #fff;
+font-size: 45px;
+font-family: Lato;
+line-height: 55px;
+font-weight: 300;
+margin-bottom: 15px;
+text-align: center;
+color: #fff;
 }
 .contact-area p{
-	font-size: 14px;
-    line-height: 15px;
-    color: #a7a8a8;
-    font-weight: normal;
-    margin-bottom: 60px;
-    text-align: center;
+font-size: 14px;
+line-height: 15px;
+color: #a7a8a8;
+font-weight: normal;
+margin-bottom: 60px;
+text-align: center;
 }
 .contact-inner{
-	color: #fff;
+color: #fff;
 }
 .form-group{
-	width: 100%;
+width: 100%;
 }
 .form-control{
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 15px;
-	background: transparent;
-	border: 1px solid #999;
-	border-radius: 3px;
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+background: transparent;
+border: 1px solid #999;
+border-radius: 3px;
 }
 .text-right{
-	text-align: right;
+text-align: right;
 }
 .checkbox{
-	margin-bottom: 10px;
-	font-family: 'Lato';
-	font-size: 14px;
-	font-weight: 150;
-	color: #d4d5d9;
-	background: #eee;
-
-
+margin-bottom: 10px;
+font-family: 'Lato';
+font-size: 14px;
+font-weight: 150;
+color: #d4d5d9;
+background: #eee;
 }
 .contact-inner .btn{
-    
-	padding: 10px 40px;
-	background: transparent;
-	color: #fff;
-	border: 1px solid #2986c5;
-	border-radius: 3px;
-	font-size: 14px;
-	font-family: 'Lato';
+
+padding: 10px 40px;
+background: transparent;
+color: #fff;
+border: 1px solid #2986c5;
+border-radius: 3px;
+font-size: 14px;
+font-family: 'Lato';
 }
 .contact-inner .btn:hover{
-	background: #2986c5;
-	transition: 0.5s;
+background: #2986c5;
+transition: 0.5s;
 }
 /*************contact-area-section CSS end********************/
-
 /*************footer-section CSS start********************/
 .footer-section{
-	width: 100%;
-	float: left;
-	background: #f6f9f9;
-	padding: 15px 0px;
+width: 100%;
+float: left;
+background: #f6f9f9;
+padding: 15px 0px;
 }
 .footer-section p {
-    font-size: 12px;
-    color: #999;
-    margin-top: 15px;
+font-size: 12px;
+color: #999;
+margin-top: 15px;
 }
 .social-icons{
-	width: 100%;
-	text-align: right;
+width: 100%;
+text-align: right;
 }
-
 .social-icons ul li{
-	list-style: none;
-	display: inline-block;
+list-style: none;
+display: inline-block;
 }
 .social-icons ul li a{
-	text-align: center;
-
+text-align: center;
 }
 .social-icons ul li a i{
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	border-radius: 0px;
-	background: #15A4FA;
-	border: 1px solid #15A4FA;
-	color: #fff;
-	font-size: 22px;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 0px;
+background: #15A4FA;
+border: 1px solid #15A4FA;
+color: #fff;
+font-size: 22px;
 }
 .social-icons ul li a i:hover{
-	background: transparent;
-	border: 1px solid #15A4FA;
-	color: #15A4FA;
+background: transparent;
+border: 1px solid #15A4FA;
+color: #15A4FA;
 }
 /*************footer-section CSS end********************/
 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 
-
-
-
-
-
-
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .navbar-nav {
+    
+    margin-top: 20px;
+  
+}
+  
+}
